@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.color {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-content: center;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.color:hover {
+  flex: 2;
+  color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
